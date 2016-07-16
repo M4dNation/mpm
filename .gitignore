@@ -1,0 +1,4 @@
+.gpm/
+contrib/.gpmconfig
+contrib/gpm.sh
+sftp-config.json
