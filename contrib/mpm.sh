@@ -6,9 +6,9 @@
 #
 #################################################################################
 
-source mpm/contrib/.mpmconfig/.mtrconfig.cfg
-source mpm/.mpm/.functions.cfg
-source mpm/.mpm/.actions.cfg
+source contrib/.mpmconfig/.mtrconfig.cfg
+source .mpm/.functions.cfg
+source .mpm/.actions.cfg
 
 LOOP=1
 while [ $LOOP -gt 0 ]; do
