@@ -61,6 +61,10 @@ while [ $LOOP -gt 0 ]; do
 	then
 		clear
 	fi
+	if isActionKill $ACTION
+	then
+		killghostinstance
+	fi
 	if isActionExit $ACTION
 	then
 		LOOP=0
