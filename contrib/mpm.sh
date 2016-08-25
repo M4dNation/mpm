@@ -12,60 +12,60 @@ source .mpm/.actions.cfg
 
 LOOP=1
 while [ $LOOP -gt 0 ]; do
-	if [ $# -eq 1 ]
+	if [ $# -eq 1 ];
   	then
     	ACTION="$1"
     	LOOP=0
 	else
-		echo -e "$COLOR_INFO"
-		echo -e "Welcome in the Meteor Project Manager ! What do you want to do ? $COLOR_NORMAL"
+		echo -e "$COLOR_INFO";
+		echo -e "Welcome in the Meteor Project Manager ! What do you want to do ? $COLOR_NORMAL";
 		read ACTION
 	fi
-	if isActionCreate $ACTION
+	if isActionCreate $ACTION;
 	then
 		create
 	fi
-	if isActionRun $ACTION
+	if isActionRun $ACTION;
 	then
 		run
 	fi
-	if isActionReset $ACTION
+	if isActionReset $ACTION;
 	then
 		reset
 	fi
-	if isActionUpdate $ACTION
+	if isActionUpdate $ACTION;
 	then
 		update
 	fi
-	if isActionList $ACTION
+	if isActionList $ACTION;
 	then
 		list
 	fi
-	if isActionLogin $ACTION
+	if isActionLogin $ACTION;
 	then
 		login
 	fi
-	if isActionLogout $ACTION
+	if isActionLogout $ACTION;
 	then
 		logout
 	fi
-	if isActionPackage $ACTION
+	if isActionPackage $ACTION;
 	then
 		package
 	fi
-	if isActionPlatform $ACTION
+	if isActionPlatform $ACTION;
 	then
 		platform
 	fi
-	if isActionClear $ACTION
+	if isActionClear $ACTION;
 	then
 		clear
 	fi
-	if isActionKill $ACTION
+	if isActionKill $ACTION;
 	then
 		kill
 	fi
-	if isActionExit $ACTION
+	if isActionExit $ACTION;
 	then
 		LOOP=0
 	fi
