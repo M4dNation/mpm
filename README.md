@@ -1,5 +1,10 @@
 # Meteor Project Manager
 
+## WARNING
+
+This repository is deprecated and no longer maintained.
+No created issues or PR will be considered.
+
 ## ABOUT
 
 MPM (Meteor Project Manager) is an utility entirely written in bash enabling Meteor Application configuration and managing 
